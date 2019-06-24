@@ -1,0 +1,109 @@
+.main_box {
+				width: 1280px;
+				text-align: center;
+				margin: 0 auto;
+				background: rgba(240, 243, 246, 1);
+				/* height: 10000px; */
+				overflow: hidden;
+			}
+
+			.img2 {
+				width: 30px;
+				height: 25px;
+			}
+
+			.fot1 {
+				font-size: 66px;
+				font-weight: bold;
+				color: #FFFFFF;
+				margin: 123px 0 16px 0;
+			}
+
+			.fot3 {
+				color: #021774;
+			}
+
+			.fot4 {
+				color: #081032;
+			}
+
+			.box3 {
+				height: 168px;
+				background-color: #FFFFFF;
+				padding: 0 180px;
+				box-sizing: border-box;
+				overflow: hidden;
+				position: relative;
+				z-index: 10000;
+			}
+
+			.box3_1 {
+				width: 920px;
+				height: 208px;
+				font-size: 32px;
+				font-family: AvenirNext-DemiBold;
+				/* font-weight:600; */
+				color: rgba(2, 23, 116, 1);
+				line-height: 44px;
+				margin-top: 54px;
+				margin-bottom: 60px;
+			}
+			.box1{
+				/* height: 1437px; */
+				padding: 0 180px;
+				box-sizing: border-box;
+			}
+			.box1_1{
+				width:450px;
+				height:60px;
+				background:rgba(255,255,255,1);
+				border-radius:6px;
+				margin-top: 60px;
+				margin-bottom: 60px;
+				text-align: left;
+				display: flex;
+				align-items: center;
+			}
+			.box1_1>input{
+				width: 400px;
+				height: 100%;
+				border: none;
+				padding: 10px;
+				box-sizing: border-box;
+			}
+			.box1_1>img{
+				width: 25px;
+				height: 25px;
+				
+			}
+			.box1_2{
+				text-align: left;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(8,16,50,1);
+				line-height:28px;
+				margin-bottom: 46px;
+			}
+			.box1_3{
+				font-size:24px;
+				font-family:AvenirNext-Bold;
+				font-weight:bold;
+				color:rgba(2,23,116,1);
+				line-height:48px;
+				margin-bottom: 10px;
+			}
+			.line{
+				height:1px;
+				background:rgba(204,204,204,1);
+				margin-top: 40px;
+			}
+			.box1_5{
+				font-size:24px;
+				font-family:AvenirNext-Bold;
+				font-weight:bold;
+				color:rgba(2,23,116,1);
+				line-height:48px;
+				text-align: left;
+				margin-bottom: 176px;
+			}
