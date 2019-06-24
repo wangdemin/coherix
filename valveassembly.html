@@ -8,154 +8,84 @@
 		<link rel="stylesheet" href="css/global.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/zxf_page.css" />
+		<link rel="stylesheet" type="text/css" href="css/tab.css"/>
+		<link rel="stylesheet" type="text/css" href="css/valveassembly.css"/>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/zxf_page.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tabdh.js" type="text/javascript" charset="utf-8"></script>
 		<style>
-			.main_box {
-				width: 1280px;
-				text-align: center;
-				margin: 0 auto;
-				background: rgba(240, 243, 246, 1);
-				/* height: 10000px; */
-				overflow: hidden;
-			}
-
-			.box2 {
-				width: 100%;
-				height: 375px;
-				background-image: url(img/valveassemblyf/valveassembly.png);
-				background-size: 100% 100%;
-				background-repeat: no-repeat;
-				text-align: center;
-				overflow: hidden;
-			}
-
-			.box1 {
-				width: 100%;
-				height: 50px;
-				padding-left: 180px;
-				box-sizing: border-box;
-				display: flex;
-				justify-content: flex-start;
-				align-items: center;
-				/* border: 1px solid red; */
-				font-size: 25px;
-			}
-
-			.img2 {
-				width: 30px;
-				height: 25px;
-			}
-
-			.fot1 {
-				font-size: 66px;
-				font-weight: bold;
-				color: #FFFFFF;
-				margin: 123px 0 16px 0;
-			}
-
-			.fot3 {
-				color: #021774;
-			}
-
-			.fot4 {
-				color: #081032;
-			}
-
-			.box3 {
-				height: 624px;
-				background-color: #FFFFFF;
-				padding: 0 180px;
-				box-sizing: border-box;
-				overflow: hidden;
-				position: relative;
-				z-index: 10000;
-			}
-
-			.box3_1 {
-				width: 920px;
-				height: 616px;
-				font-size: 24px;
-				font-family: AvenirNext-Bold;
-				color: rgba(8, 16, 50, 1);
-				line-height: 44px;
-				text-align: left;
-				margin-top: 54px;
-				margin-bottom: 60px;
-			}
-
-			.box4 {
-				height:888px;
-				padding: 70px 90px;
-				box-sizing: border-box;
-			}
-			.box4_1{
-				height:50px;
-				font-size:32px;
-				font-family:AvenirNext-DemiBold;
-				font-weight:600;
-				color:rgba(2,23,116,1);
-				line-height:50px;
-				text-align: center;
-				margin-bottom: 60px;
-			}
-			.box4>video{
-				width:1100px;
-				height:618px;
-			}
-			.box5{
-				height: 883px;
-				background-color: #FFFFFF;
-				padding: 80px 180px;
-				box-sizing: border-box;
-			}
-			.box5_1{
-				height:50px;
-				font-size:32px;
-				font-family:AvenirNext-DemiBold;
-				font-weight:600;
-				color:rgba(2,23,116,1);
-				line-height:50px;
-			}
-			.box5_img{
-				width:920px;
-				height:613px;
-				margin-top: 60px;
-			}
+			
 		</style>
 	</head>
 	<body>
-		<header id="header">
-			<div class="wrapper headWrap">
-				<h1 id="logo">
-					<img src="./img/home/logo.png">
-				</h1>
-				<div class="navWrap">
-					<div class="languageWrap">
-						<ul class="langList">
-							<li class="langItem">US</li>
-							<li class="langItem">EN</li>
-							<li class="langItem">DE</li>
-							<li class="langItem">ES</li>
-						</ul>
-					</div>
-					<div class="navigationWrap">
-						<nav class="navigation">
-							<ul class="navList">
-								<li class="navItem"><a href="#">Invest</a></li>
-								<li class="navItem"><a href="#">Home</a></li>
-								<li class="navItem"><a href="#">Products</a></li>
-								<li class="navItem"><a href="#">Platforms</a></li>
-								<li class="navItem"><a href="#">Resources</a></li>
-								<li class="navItem"><a href="#">About us</a></li>
-								<li class="navItem"><a href="#">Z-axis</a></li>
-							</ul>
-						</nav>
-						<span class="iSearch"></span>
-					</div>
-				</div>
-			</div>
-		</header>
+		 <header id="header">
+        <div class="wrapper headWrap">
+            <h1 id="logo">
+                <img src="./img/home/logo.png">
+            </h1>
+            <div class="navWrap">
+                <div class="languageWrap">
+                    <ul class="langList">
+                        <li class="langItem">US</li>
+                        <li class="langItem">EN</li>
+                        <li class="langItem">DE</li>
+                        <li class="langItem">ES</li>
+                    </ul>
+                </div>
+                <div class="navigationWrap">
+                    <nav class="navigation">
+                        <ul class="navList">
+                            <li class="navItem"><a href="#">Invest</a></li>
+                            <li class="navItem"><a href="#">Home</a></li>
+                            <li class="navItem xl">
+								<a href="products.html">Products</a>
+								<div class="xia">
+									<div class="xia1">
+										<div class="xia1_1"><a href="products.html">Predator3D</a></div>
+										<div class="xia1_1 ac"><a href="">Robust3D ></a></div>
+										<div class="xia1_1">Saber3D </div>
+										<div class="xia2">
+											<div class="xia2_1">
+												<a href="">Piston Assembly</a>
+											</div>
+											<div class="xia2_1">
+												<a href="rollingfingerfollowerassembly.html">Rolling Finger Follower Assembly</a>
+											</div>
+											<div class="xia2_1">
+												<a href="">Valve Assembly</a>
+											</div>
+											<div class="xia2_1">
+												<a href="">Volume Measurement</a>
+											</div>
+											<div class="xia2_1">
+												<a href="">Flexible End-of-Line Inspection</a>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</li>
+                            <li class="navItem"><a href="#">Platforms</a></li>
+                            <li class="navItem"><a href="#">Resources</a></li>
+                            <li class="navItem"><a href="#">About us</a></li>
+                            <li class="navItem"><a href="zaxis.html">Z-axis</a></li>
+							<li>
+								<img class="img_tab1" src="img/home/search.png" >
+							</li>
+                        </ul>
+                    </nav>
+                    <span class="iSearch"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+	<div class="ss_box1">
+		<div class="ss_box2">
+			<input type="text" placeholder="Search">
+			<img class="img_tab2" src="img/search/search.png" >
+			<img class="xx" src="img/search/close.png" >
+		</div>
+	</div>
 		<article class="main_box">
 			<div class="box2">
 				<div class="fot1"> Valve Assembly</div>
