@@ -1,0 +1,228 @@
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#header {
+    background: #081032;
+}
+
+#logo,
+#logo img {
+    width: 170px;
+    height: 47px;
+}
+
+.headWrap {
+    display: flex;
+    height: 70px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navWrap {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigationWrap,
+.languageWrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.langList,
+.navList {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    align-items: center;
+}
+
+.navList {
+    height: 45px;
+}
+
+.langList,
+.langItem {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .7);
+    margin-left: 16px;
+}
+
+.navList .navItem {
+    margin: 0 20px;
+}
+.secTitle{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:100px;
+    font-weight:600;
+    color:rgba(255, 255, 255, 1);
+    text-shadow:0px 16px 20px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+.porducts{
+    height: 612px;
+    background: url(../img/products/products.png) #F0F3F6 no-repeat;
+} 
+.platforms{
+     height: 612px;
+     background: url(../img/products/platforms.png) #F0F3F6 no-repeat;
+}
+.platformsInfo{
+    height:316px;
+}
+.platformsInfo .infoWrap{
+    height:296px;
+}
+.secInfo{
+    height:798px;
+    background:rgba(240, 243, 246, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoWrap{
+    width: 920px;
+    height:838px;
+    background:rgba(255, 255, 255, 1);
+    box-shadow:0px 12px 34px 0px rgba(203, 212, 222, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 90px;
+    margin-top: -200px;
+    padding:0 90px;
+}
+.infoWrap p{
+    font-size:24px;
+    font-weight:500;
+    color:rgba(8, 16, 50, 1);
+    line-height:44px;
+    margin-top: 60px;
+}
+.infoWrap img {
+    width: 930px;
+    height: 428px;
+}
+.secRobust{ 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background:rgba(255, 255, 255, 1);
+    padding-bottom:80px; 
+}
+.blockItems,
+.blockItem2 img,
+.blockItem3 img {
+    width:640px;
+    height:560px;
+}
+.blockItem1,
+.blockItem4 {
+    width: 496px;
+    padding: 70px 72px;
+    height: 420px;
+    background:rgba(8, 16, 50, 1);
+}
+.blockItem1 h2,
+.blockItem4 h2{
+    font-size:38px;
+    font-weight:bold;
+    color:rgba(255, 255, 255, 1);
+}
+.blockItem1 p,
+.blockItem4 p{
+    font-size:18px;
+    font-weight:500;
+    color:rgba(255, 255, 255, 1);
+    margin:16px 0 30px;
+    line-height: 32px;
+}
+.btn{
+    width:181px;
+    height:50px;
+    background:rgba(255, 255, 255, 1);
+    border-radius:33px;
+    border:2px solid rgba(215, 36, 47, 1);
+    font-size:20px;
+    font-weight:600;
+    color:rgba(215, 36, 47, 1);
+    padding: 0 10px
+}
+
+.btnRight{
+    background: url(../img/home/arrowRed.png) rgba(255, 255, 255, 1) no-repeat;
+    background-size: 16px 12px;
+    background-position: 148px center;
+    text-align: left;
+    padding-left: 24px;
+}
+.btnRight:hover {
+     background: url(../img/home/arrowWhite.png) rgba(215, 36, 47, 1) no-repeat;
+     background-size: 16px 12px;
+     background-position: 148px center;
+     color:rgba(255, 255, 255, 1);
+     text-align: left;
+     padding-left: 24px;
+}
+.footer{
+    background:rgba(8, 16, 50, 1);
+}
+.footWrap{
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.browse ,
+.concat ,
+.about  {
+    height: 248px;
+}
+.browse h3,
+.concat h3,
+.about h3{
+    font-size:18px;
+    font-family:AvenirNext-DemiBold;
+    font-weight:600;
+    color:rgba(162, 173, 223, 1);
+    line-height:25px;
+    letter-spacing:1px;
+    margin-bottom: 13px;
+}
+.browse{
+    font-size:18px;
+    font-weight:500;
+    color:rgba(255, 255, 255, 1);
+    line-height:30px;
+}
+.concat{
+    width:183px;
+    font-size:18px;
+    font-weight:500;
+    color:rgba(255, 255, 255, 1);
+    line-height:30px;
+}
+.concat p{ margin-bottom: 20px;}
+.about{
+    width: 120px;
+    margin-right: 60px;
+}
+.footLogo{ margin-left: 60px;}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:59px;
+    background:rgba(255, 255, 255, 1);
+    font-size:14px;
+    font-weight:400;
+    color:rgba(15, 20, 45, 1);
+    letter-spacing:1px;
+}

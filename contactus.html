@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>home</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<style>
+			.main_box {
+				width: 1280px;
+				text-align: center;
+				margin: 0 auto;
+				background: rgba(240, 243, 246, 1);
+				/* height: 10000px; */
+			}
+
+			.box2 {
+				width: 100%;
+				height: 375px;
+				background-image: url(img/about%20us/2.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				text-align: center;
+				overflow: hidden;
+			}
+
+			.box1 {
+				width: 100%;
+				height: 50px;
+				padding-left: 180px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				/* border: 1px solid red; */
+				font-size: 25px;
+			}
+
+			.img2 {
+				width: 30px;
+				height: 25px;
+			}
+
+			.fot1 {
+				font-size: 66px;
+				font-weight: bold;
+				color: #FFFFFF;
+				margin: 123px 0 16px 0;
+			}
+
+			.fot2 {
+				font-size: 32px;
+				font-weight: bold;
+				color: #FFFFFF;
+			}
+
+			.fot3 {
+				color: #021774;
+			}
+
+			.fot4 {
+				color: #081032;
+			}
+
+			.box3 {
+				width: 100%;
+				/* height: 492px; */
+				background: #FFFFFF;
+				margin-top: 10px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.box3_1 {
+				width: 920px;
+				font-size: 24px;
+				color: #021774;
+				text-align: left;
+				line-height: 44px;
+				margin: 60px 0;
+			}
+
+			.box3_1_f {
+				font-weight: bold;
+			}
+
+			.box4 {
+				padding: 0 180px;
+				box-sizing: border-box;
+				background-color: #FFFFFF;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 90px;
+			}
+
+			.box4_img {
+				width: 410px;
+				height: 258px;
+			}
+
+			.box4_1 {
+				width: 440px;
+				font-size: 24px;
+				color: #021774;
+				padding-bottom: 14px;
+				box-sizing: border-box;
+				font-weight: bold;
+				border-bottom: 2px solid #021774;
+				text-align: left;
+				margin-bottom: 20px;
+			}
+
+			.box4_2 {
+				display: flex;
+				justify-content: center;
+				margin-bottom: 10px;
+			}
+
+			.box4_3 {
+				width: 70px;
+				text-align: left;
+				font-size: 18px;
+				color: #021774;
+			}
+
+			.box4_4 {
+				width: 330px;
+				text-align: left;
+				font-size: 18px;
+				color: #081032;
+			}
+			.box5{
+				background-color: #FFFFFF;
+				overflow: hidden;
+			}
+			.box6{
+				height:802px;
+				background-image: url(img/bg.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				overflow: hidden;
+				padding: 0 150px;
+				box-sizing: border-box;
+			}
+			.box6_1{
+				width:920px;
+				height:120px;
+				font-size:22px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:40px;
+				text-align: left;
+				margin: 0 auto;
+				margin-top: 60px;
+				margin-bottom: 30px;
+			}
+			.box6_2{
+				color: #FFFFFF;
+				font-size: 19px;
+			}
+			.box6_5{
+				text-align: left;
+				margin-right: 90px;
+			}
+			.box6_4{
+				width:414px;
+				height:56px;
+				background:rgba(255,255,255,1);
+				border:2px solid rgba(226,226,226,1);
+				margin: 15px 0 30px 0;
+			}
+			.box6_3>input{
+				width:198px;
+				height:56px;
+				background:rgba(255,255,255,1);
+				border:2px solid rgba(226,226,226,1);
+				margin-top: 15px;
+				margin-right: 5px;
+			}
+			.ipt{
+				width:414px;
+				height:56px;
+				background:rgba(255,255,255,1);
+				border:2px solid rgba(226,226,226,1);
+			}
+			.box6_6{
+				width:162px;
+				height:56px;
+				border-radius:4px;
+				border:3px solid rgba(255,255,255,1);
+				margin-top: 50px;
+				padding: 12px 15px;
+				box-sizing: border-box;
+				font-size:18px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:14px;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+			}
+			.img3{
+				width: 32px;
+				height: 32px;
+				margin-right: 10px;
+			}
+			.box6_7{
+				font-size:19px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				text-align: left;
+				margin-bottom: 15px;
+			}
+			textarea{
+				width:414px;
+				height:350px;
+				background:rgba(255,255,255,1);
+				border:2px solid rgba(226,226,226,1);
+				padding: 10px;
+				box-sizing: border-box;
+			}
+			.box6_8{
+				display: flex;
+				justify-content: flex-start;
+			}
+		</style>
+	</head>
+	<body>
+		<header id="header">
+			<div class="wrapper headWrap">
+				<h1 id="logo">
+					<img src="./img/home/logo.png">
+				</h1>
+				<div class="navWrap">
+					<div class="languageWrap">
+						<ul class="langList">
+							<li class="langItem">US</li>
+							<li class="langItem">EN</li>
+							<li class="langItem">DE</li>
+							<li class="langItem">ES</li>
+						</ul>
+					</div>
+					<div class="navigationWrap">
+						<nav class="navigation">
+							<ul class="navList">
+								<li class="navItem"><a href="#">Invest</a></li>
+								<li class="navItem"><a href="#">Home</a></li>
+								<li class="navItem"><a href="#">Products</a></li>
+								<li class="navItem"><a href="#">Platforms</a></li>
+								<li class="navItem"><a href="#">Resources</a></li>
+								<li class="navItem"><a href="#">About us</a></li>
+								<li class="navItem"><a href="#">Z-axis</a></li>
+							</ul>
+						</nav>
+						<span class="iSearch"></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<article class="main_box">
+			<div class="box2">
+				<div class="fot1">CONTACT US</div>
+				<!-- <div class="fot2">STRUCTURAL ADHESIVE & SEALANT BEAD INSPECTION</div> -->
+			</div>
+			<div class="box1">
+				<img class="img2" src="img/predator3D/back_to_home.png">>
+				<a href="" class="fot3">About Us</a>>
+				<a href="" class="fot4">Contact Us</a>
+			</div>
+			<div class="box3">
+				<div class="box3_1">
+					Coherix partners with a diverse customer base of OEMs, end users, system integrators and application providers.
+					Our professionals are ready and willing to assist you with your needs, questions or concerns you may have. We
+					invite you to contact us to discuss your 3D vision application needs.
+				</div>
+			</div>
+			<div class="box5">
+				<div class="box4">
+					<img class="box4_img" src="img/contact%20us/company1.png">
+					<div>
+						<div class="box4_1">Coherix Headquarters</div>
+						<div class="box4_2">
+							<div class="box4_3">Address</div>&#x3000
+							<div class="box4_4">3980 Ranchero Dr. Ann Arbor, MI 48108</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">tel</div>&#x3000
+							<div class="box4_4">734-922-4073</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">Fax</div>&#x3000
+							<div class="box4_4">734-761-9193</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">URL</div>&#x3000
+							<div class="box4_4">coherixinfo@coherix.com</div>
+						</div>
+					</div>
+				</div>
+				<div class="box4">
+					<img class="box4_img" src="img/contact%20us/company1.png">
+					<div>
+						<div class="box4_1">Coherix Headquarters</div>
+						<div class="box4_2">
+							<div class="box4_3">Address</div>&#x3000
+							<div class="box4_4">3980 Ranchero Dr. Ann Arbor, MI 48108</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">tel</div>&#x3000
+							<div class="box4_4">734-922-4073</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">Fax</div>&#x3000
+							<div class="box4_4">734-761-9193</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">URL</div>&#x3000
+							<div class="box4_4">coherixinfo@coherix.com</div>
+						</div>
+					</div>
+				</div>
+				<div class="box4">
+					<img class="box4_img" src="img/contact%20us/company1.png">
+					<div>
+						<div class="box4_1">Coherix Headquarters</div>
+						<div class="box4_2">
+							<div class="box4_3">Address</div>&#x3000
+							<div class="box4_4">3980 Ranchero Dr. Ann Arbor, MI 48108</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">tel</div>&#x3000
+							<div class="box4_4">734-922-4073</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">Fax</div>&#x3000
+							<div class="box4_4">734-761-9193</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">URL</div>&#x3000
+							<div class="box4_4">coherixinfo@coherix.com</div>
+						</div>
+					</div>
+				</div>
+				<div class="box4">
+					<img class="box4_img" src="img/contact%20us/company1.png">
+					<div>
+						<div class="box4_1">Coherix Headquarters</div>
+						<div class="box4_2">
+							<div class="box4_3">Address</div>&#x3000
+							<div class="box4_4">3980 Ranchero Dr. Ann Arbor, MI 48108</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">tel</div>&#x3000
+							<div class="box4_4">734-922-4073</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">Fax</div>&#x3000
+							<div class="box4_4">734-761-9193</div>
+						</div>
+						<div class="box4_2">
+							<div class="box4_3">URL</div>&#x3000
+							<div class="box4_4">coherixinfo@coherix.com</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			<div class="box6">
+				<div class="box6_1">Coherix partners with a diverse customer base of OEMs, manufacturers, system integrators and application providers. We invite you to contact us to discuss your vision application needs.</div>
+				<div class="box6_8">
+					<div class="box6_5">
+						<div class="box6_2">Category (required)</div>
+						<select name="" class="box6_4">
+							<option value="">Quotation Request</option>
+							<option value="">Quotation Request</option>
+							<option value="">Quotation Request</option>
+							<option value="">Quotation Request</option>
+						</select>
+						<div class="box6_2">Your Name (required)</div>
+						<div class="box6_3">
+							<input type="text">
+							<input type="text">
+						</div>
+						<div class="box6_2" style="margin-top: 30px;margin-bottom: 15px;">Your E-mail (required)</div>
+						<input class="ipt" type="text">
+						<div class="box6_6">
+							<img class="img3" src="img/coherixjobs/submit.png" >
+							<span>Submit</span>
+						</div>
+					</div>
+					
+					<div>
+						<div class="box6_7">Your Message</div>
+						<textarea rows="" cols=""></textarea>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+
+
+		</article>
+		<footer class="footer">
+			<div class="wrapper footWrap">
+				<h2 class="footLogo">
+					<img src="./img/home/logo.png" width="168" height="54">
+				</h2>
+				<div class="browse">
+					<h3>Browse</h3>
+					<ul class="browseList">
+						<li class="browseItem"><a href="#">Invest</a></li>
+						<li class="browseItem"><a href="#">Home</a></li>
+						<li class="browseItem"><a href="#">Products</a></li>
+						<li class="browseItem"><a href="#">Platforms</a></li>
+						<li class="browseItem"><a href="#">Resources</a></li>
+						<li class="browseItem"><a href="#">About us</a></li>
+						<li class="browseItem"><a href="#">Z-axis</a></li>
+					</ul>
+				</div>
+				<div class="concat">
+					<h3>Concat</h3>
+					<p>
+						Coherix Headquarters 3980 Ranchero Dr. Ann Arbor, MI 48108
+					</p>
+					<div>
+						<a href="tel:734-922-4073">Tel: 734-922-4073</a>
+						<a href="fax:734-761-9193">Fax: 734-761-9193</a>
+					</div>
+				</div>
+				<div class="about">
+					<h3>About</h3>
+					<a href="#">
+						<img src="./img/home/social1.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social2.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social3.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social4.png" width="26" height="26" />
+					</a>
+				</div>
+			</div>
+			<div class="copyright">Copyright @ 2018 Coherix</div>
+		</footer>
+	</body>
+</html>

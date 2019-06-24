@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>home</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/zxf_page.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zxf_page.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			.main_box {
+				width: 1280px;
+				text-align: center;
+				margin: 0 auto;
+				background: rgba(240, 243, 246, 1);
+				/* height: 10000px; */
+				overflow: hidden;
+			}
+
+			.box2 {
+				width: 100%;
+				height: 375px;
+				background-image: url(img/coherixjobs/coherixjobs.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				text-align: center;
+				overflow: hidden;
+			}
+
+			.box1 {
+				width: 100%;
+				height: 50px;
+				padding-left: 180px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				/* border: 1px solid red; */
+				font-size: 25px;
+			}
+
+			.img2 {
+				width: 30px;
+				height: 25px;
+			}
+
+			.fot1 {
+				font-size: 66px;
+				font-weight: bold;
+				color: #FFFFFF;
+				margin: 123px 0 16px 0;
+			}
+
+			.fot2 {
+				font-size: 30px;
+				font-family: AvenirNext-DemiBold;
+				font-weight: 600;
+				color: rgba(255, 255, 255, 1);
+				line-height: 50px;
+				letter-spacing: 2px;
+			}
+
+			.fot3 {
+				color: #021774;
+			}
+
+			.fot4 {
+				color: #081032;
+			}
+
+			.box3 {
+				height: 752px;
+				background-color: #FFFFFF;
+				padding: 0 180px;
+				box-sizing: border-box;
+				overflow: hidden;
+				position: relative;
+				z-index: 10000;
+			}
+
+			.box3_1 {
+				width: 920px;
+				height: 616px;
+				font-size: 24px;
+				font-family: AvenirNext-Medium;
+				font-weight: 500;
+				color: rgba(8, 16, 50, 1);
+				line-height: 44px;
+				text-align: left;
+				margin-top: 54px;
+				margin-bottom: 60px;
+			}
+
+			.box3_2 {
+				font-size: 36px;
+				font-family: AvenirNext-Bold;
+				font-weight: bold;
+				color: rgba(2, 23, 116, 1);
+				line-height: 54px;
+				text-align: center;
+				margin-top: 60px;
+			}
+
+			.btn {
+				width: 412px;
+				height: 64px;
+				background: rgba(215, 36, 47, 1);
+				border-radius: 32px;
+				border: 2px solid rgba(215, 36, 47, 1);
+				margin: 0 auto;
+				padding: 0 25px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				font-size: 18px;
+				font-family: AvenirNext-DemiBold;
+				font-weight: 600;
+				color: rgba(255, 255, 255, 1);
+			}
+
+			.btn>img {
+				width: 20px;
+				height: 25px;
+				margin-right: 10px;
+			}
+
+			.box4 {
+				display: flex;
+				width: 1920px;
+			}
+
+			.box4>div,
+			.box4>img {
+				width: 640px;
+				height: 640px;
+				
+			}
+			
+			.box4_1 {
+				padding: 120px 72px;
+				box-sizing: border-box;
+				background: rgba(8, 16, 50, 1);
+				text-align: left;
+			}
+
+			.box4_fot1 {
+				font-size: 18px;
+				font-family: AvenirNext-Bold;
+				font-weight: bold;
+				color: rgba(255, 255, 255, 1);
+				line-height: 48px;
+			}
+
+			.box4_fot2 {
+				font-size: 40px;
+				font-family: AvenirNext-Bold;
+				font-weight: bold;
+				color: rgba(255, 255, 255, 1);
+				line-height: 48px;
+			}
+			.box4_fot3{
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(255,255,255,1);
+				line-height:32px;
+				margin-top: 16px;
+			}
+			.box4_2{
+				width:181px;
+				height:50px;
+				background:rgba(215,36,47,1);
+				border-radius:33px;
+				border:3px solid rgba(215,36,47,1);
+				margin-top: 30px;
+				font-size:20px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:14px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.box4_2>img{
+				width: 20px;
+				height: 10px;
+				margin-left: 10px;
+			}
+			.box5{
+				height:560px;
+				background-image: url(img/coherixjobs/1.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				padding: 80px 180px;
+				box-sizing: border-box;
+			}
+			.box5_1{
+				font-size:48px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:50px;
+				margin-bottom: 30px;
+			}
+			.box5_2{
+				width:920px;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(255,255,255,1);
+				line-height:30px;
+				margin-bottom: 16px;
+				text-align: left;
+			}
+			.box6{
+				height:600px;
+				background:rgba(66,18,21,1);
+				padding: 80px 215px;
+				box-sizing: border-box;
+			}
+			.box6_1{
+				font-size:24px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:50px;
+				margin-bottom: 30px;
+			}
+			.box6_2{
+				display: flex;
+			}
+			.box6_3{
+				
+			}
+			.box6_4{
+				font-size:18px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:50px;
+				text-align: left;
+				margin-bottom: 8px;
+			}
+			.box6_3>input{
+				width:414px;
+				height:56px;
+				background:rgba(255,255,255,1);
+				border:2px solid rgba(226,226,226,1);
+			}
+			.box6_5{
+				width:162px;
+				height:56px;
+				border-radius:4px;
+				border:3px solid rgba(255,255,255,1);
+				margin-top: 50px;
+				font-size:18px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(255,255,255,1);
+				line-height:14px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.box6_5>img{
+				width:32px;
+				height:32px;
+				margin-right: 10px;
+			}
+			.box6_6{
+				margin-left: 57px;
+			}
+			.box6_7{
+				width:250px;
+				height:56px;
+				background:rgba(255,255,255,1);
+				border-radius:33px;
+				border:2px solid rgba(215,36,47,1);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size:18px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(215,36,47,1);
+				line-height:14px;
+
+			}
+			.box6_7>img{
+				width: 18px;
+				height: 20px;
+				margin-right: 5px;
+			}
+			.box4_qj{
+				text-align: right;
+			}
+			.box4_qj>img{
+				width:40px;
+				height:40px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				margin-right: 60px;
+			}
+			.box4_qj1{
+				font-size:48px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(2,23,116,1);
+				line-height:50px;
+				text-align: left;
+				margin-left: 80px;
+				margin-bottom: 20px;
+			}
+			.box4_qj2{
+				width: 480px;
+				text-align: left;
+				margin-left: 80px;
+				font-size:16px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(8,16,50,1);
+				line-height:30px
+				/* margin-top: 30px; */
+			}
+		</style>
+	</head>
+	<body>
+		<header id="header">
+			<div class="wrapper headWrap">
+				<h1 id="logo">
+					<img src="./img/home/logo.png">
+				</h1>
+				<div class="navWrap">
+					<div class="languageWrap">
+						<ul class="langList">
+							<li class="langItem">US</li>
+							<li class="langItem">EN</li>
+							<li class="langItem">DE</li>
+							<li class="langItem">ES</li>
+						</ul>
+					</div>
+					<div class="navigationWrap">
+						<nav class="navigation">
+							<ul class="navList">
+								<li class="navItem"><a href="#">Invest</a></li>
+								<li class="navItem"><a href="#">Home</a></li>
+								<li class="navItem"><a href="#">Products</a></li>
+								<li class="navItem"><a href="#">Platforms</a></li>
+								<li class="navItem"><a href="#">Resources</a></li>
+								<li class="navItem"><a href="#">About us</a></li>
+								<li class="navItem"><a href="#">Z-axis</a></li>
+							</ul>
+						</nav>
+						<span class="iSearch"></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<article class="main_box">
+			<div class="box2">
+				<div class="fot1">COHERIXJOBS</div>
+				<div class="fot2">COHERIX, AN EQUAL OPPORTUNITY EMPLOYER</div>
+			</div>
+			<div class="box1">
+				<img class="img2" src="img/predator3D/back_to_home.png">>
+				<a href="" class="fot3">About Us</a>>
+				<a href="" class="fot4">Coherixjobs</a>>
+			</div>
+			<div class="box3">
+				<div class="box3_2">Careers at Coherix</div>
+				<div class="box3_1">
+					Coherix, Inc. is the leading provider of 3D machine vision solutions for manufacturing environments with complex
+					measurement challenges – where measuring in microns within microseconds is mission critical. We appreciate your
+					interest in Coherix and encourage you to explore current opportunities. We are growing rapidly and are always
+					seeking passionate and talented people to join our enthusiastic and nimble team. If you are a dynamic individual
+					that enjoys a fast-paced environment, you have come to the right place. Coherix is an equal opportunity employer.
+					We are located in Ann Arbor, Michigan with global opportunities for individuals seeking a high-tech, creative
+					environment and an incentive stock option program. We offer a competitive salary and benefits plan. Success at
+					Coherix is based on experience, performance and contribution within The Coherix Way.
+				</div>
+				<div class="btn">
+					<img src="img/predator3D/download(white).png">
+					<span>Download：Robust PA Spec Sheet</span>
+				</div>
+			</div>
+			<div class="box4">
+				<div class="box4_qj">
+					<img class="img_sc" src="img/coherixjobs/close.png" >
+					<div class="box4_qj1">Project Engineer</div>
+					<div class="box4_qj2">Coordinate the planning, design, and installation of machinery and equipment in an industrial environment using atherectomy actuator, phantom box. Oversee installation to see that machines and equipment are installed and functioning according to specifications. Test the machinery to make sure that machinery has the capability to carry out desired functions. Coordinate with management to ensure that proper training is provided to workers to implement operating procedures, safety protocols to avoid system malfunctions. Participate in training sessions, seminars, and continuing education to stay abreast of new technical developments. Provide technical information and training to workers in other departments, such as marketing and legal, as well as engineering and production staff.</div>
+				</div>
+				<div class="box4_1">
+					<div class="box4_fot1">CAREERS</div>
+					<div class="box4_fot2">Sales Engineers</div>
+					<div class="box4_fot3">
+						Qualified candidates must possess a technical degree or equivalent technical experience with at least 5 years
+						in selling capital equipment into the automotive industry with a successful track record in selling vision
+						systems into body, assembly, and/or powertrain plants. Knowledgeable of …
+					</div>
+					<div class="box4_2" id="qj_one">
+						<span>Learn more</span>
+						<img src="img/coherixjobs/learn%20more.png" >
+					</div>
+					<div class="box4_2" id="fh">
+						<img src="img/coherixjobs/back.png" >
+						<span>Back</span>
+					</div>
+				</div>
+				
+				
+				<img src="img/coherixjobs/career1.png">
+			</div>
+			<div class="box4">
+				<div class="box4_1">
+					<div class="box4_fot1">CAREERS</div>
+					<div class="box4_fot2">Sales Engineers</div>
+					<div class="box4_fot3">
+						Qualified candidates must possess a technical degree or equivalent technical experience with at least 5 years
+						in selling capital equipment into the automotive industry with a successful track record in selling vision
+						systems into body, assembly, and/or powertrain plants. Knowledgeable of …
+					</div>
+					<div class="box4_2">
+						<span>Learn more</span>
+						<img src="img/coherixjobs/learn%20more.png" >
+					</div>
+				</div>
+				<img src="img/coherixjobs/career1.png">
+			</div>
+			<div class="box4">
+				<div class="box4_1">
+					<div class="box4_fot1">CAREERS</div>
+					<div class="box4_fot2">Sales Engineers</div>
+					<div class="box4_fot3">
+						Qualified candidates must possess a technical degree or equivalent technical experience with at least 5 years
+						in selling capital equipment into the automotive industry with a successful track record in selling vision
+						systems into body, assembly, and/or powertrain plants. Knowledgeable of …
+					</div>
+					<div class="box4_2">
+						<span>Learn more</span>
+						<img src="img/coherixjobs/learn%20more.png" >
+					</div>
+				</div>
+				<img src="img/coherixjobs/career1.png">
+			</div>
+			<div class="box5">
+				<div class="box5_1">The Coherix Way</div>
+				<div class="box5_2">• We achieve sound, creative decisions that result in understanding and alignment.</div>
+				<div class="box5_2">• We listen for and seek out ideas, opinions and attitudes different from our own, maintaining strong convictions, but responding to ideas sounder than our own by changing our mind.</div>
+				<div class="box5_2">• We achieve sound, creative decisions that result in understanding and alignment.</div>
+				<div class="box5_2">• We achieve sound, creative decisions that result in understanding and alignment.</div>
+				<div class="box5_2">• We achieve sound, creative decisions that result in understanding and alignment.</div>
+			</div>
+			<div class="box6">
+				<div class="box6_1">Please specify in your resume which position you are applying for.</div>
+				<div class="box6_2">
+					<div class="box6_3">
+						<div class="box6_4">Your Name (required)</div>
+						<input type="text">
+						<div class="box6_4">Your E-mail (required)</div>
+						<input type="text">
+						<div class="box6_5">
+							<img src="img/coherixjobs/submit.png" >
+							<span>Submit</span>
+						</div>
+					</div>
+					<div class="box6_6">
+						<div class="box6_4">Your Name (required)</div>
+						<div class="box6_7">
+							<img src="img/coherixjobs/Group%202%20Copy%202.png">
+							<span>Upload Your Resume</span>
+						</div>
+					</div>
+					
+				</div>
+				
+				
+			</div>
+
+
+
+
+		</article>
+		<footer class="footer">
+			<div class="wrapper footWrap">
+				<h2 class="footLogo">
+					<img src="./img/home/logo.png" width="168" height="54">
+				</h2>
+				<div class="browse">
+					<h3>Browse</h3>
+					<ul class="browseList">
+						<li class="browseItem"><a href="#">Invest</a></li>
+						<li class="browseItem"><a href="#">Home</a></li>
+						<li class="browseItem"><a href="#">Products</a></li>
+						<li class="browseItem"><a href="#">Platforms</a></li>
+						<li class="browseItem"><a href="#">Resources</a></li>
+						<li class="browseItem"><a href="#">About us</a></li>
+						<li class="browseItem"><a href="#">Z-axis</a></li>
+					</ul>
+				</div>
+				<div class="concat">
+					<h3>Concat</h3>
+					<p>
+						Coherix Headquarters 3980 Ranchero Dr. Ann Arbor, MI 48108
+					</p>
+					<div>
+						<a href="tel:734-922-4073">Tel: 734-922-4073</a>
+						<a href="fax:734-761-9193">Fax: 734-761-9193</a>
+					</div>
+				</div>
+				<div class="about">
+					<h3>About</h3>
+					<a href="#">
+						<img src="./img/home/social1.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social2.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social3.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social4.png" width="26" height="26" />
+					</a>
+				</div>
+			</div>
+			<div class="copyright">Copyright @ 2018 Coherix</div>
+		</footer>
+
+
+
+
+		<script type="text/javascript">
+			$(function(){
+				$('#fh,.box4_qj').hide()
+				
+				$('#qj_one').click(function(){
+					$('#qj_one').hide()
+					$('.box4_qj,#fh').show()
+
+				})
+				$('#fh,.img_sc').click(function(){
+					$('.box4_qj,#fh').hide()
+					$('#qj_one').show()
+				
+				})
+				
+				
+			})
+		</script>
+	</body>
+</html>

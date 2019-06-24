@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+		.main_box{
+			width: 1280px;
+			text-align: center;
+			margin: 0 auto;
+			background:rgba(240,243,246,1);
+			/* height: 10000px; */
+		}
+        .box2{
+			width: 100%;
+			height: 375px;
+			background-image: url(img/saber/Saber.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			text-align: center;
+			overflow: hidden;
+		}
+		.box1{
+			width: 100%;
+			height: 50px;
+			padding-left: 180px;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			/* border: 1px solid red; */
+			font-size: 25px;
+		}
+		.img2{
+			width: 30px;
+			height: 25px;
+		}
+		.fot1{
+			font-size: 66px;
+			font-weight: bold;
+			color: #FFFFFF;
+			margin: 123px 0 16px 0;
+		}
+		.fot2{
+			font-size: 32px;
+			font-weight: bold;
+			color: #FFFFFF;
+		}
+		.fot3{
+			color: #021774;
+		}
+		.fot4{
+			color: #081032;
+		}
+		.box3{
+			width: 100%;
+			height: 756px;
+			background: #FFFFFF;
+			margin-top: 10px;
+			display: flex;
+			justify-content: center;
+			/* align-items: center; */
+			padding-top: 60px;
+			box-sizing: border-box;
+		}
+		.box3_1{
+			width: 920px;
+			height: 352px;
+			font-size: 24px;
+			color: #081032;
+			text-align: left;
+			line-height:44px;
+		}
+		.box3_1_f{
+			font-weight: bold;
+		}
+		.vid{
+			width:1100px;
+			height:624px;
+		}
+		.box5{
+			height: 550px;
+			background-color: #FFFFFF;
+			overflow: hidden;
+			padding: 0 135px;
+			box-sizing: border-box;
+		}
+		.vid2{
+			width: 320px;
+			height: 230px;
+		}
+		.box6{
+			/* height: 1862px; */
+			background-image: url(img/saber/features.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			margin-bottom: 80px;
+		}
+		.box6_one{
+			width:1280px;
+			height:1024px;
+			/* border: 1px solid red; */
+			overflow: hidden;
+		}
+		.box6_one_1{
+			margin: 80px 0 60px 0;
+			font-size: 48px;
+			color: #FFFFFF;
+		}
+		.box6_one_2{
+			width:920px;
+			height:82px;
+			border:2px solid rgba(255,255,255,1);
+			margin: 0 auto;
+			margin-bottom: 30px;
+			font-size: 22px;
+			color: #FFFFFF;
+			padding: 0 30px;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		.box6_tow{
+			width:1280px;
+			height:1088px;
+			overflow: hidden;
+			overflow-y: scroll;
+		}
+		.box6_tow_1{
+			width:200px;
+			height:220px;
+			background-image: url(img/predator3D/Polygon.png);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 20px;
+		}
+		.box6_tow_2{
+			padding: 0 146px;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.box6_tow_3{
+			width: 140px;
+			height: 130px;
+			font-size: 20px;
+			color: #FFFFFF;
+			text-align: center;
+			line-height:26px;
+		}
+		.box6_tow2_3{
+			width:424px;
+			height:64px;
+			background:rgba(255,255,255,1);
+			border-radius:32px;
+			border:2px solid rgba(215,36,47,1);
+			padding: 0 30px;
+			box-sizing: border-box;
+			font-size: 20px;
+			color: #D7242F;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		.box6_tow2_4{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 60px;
+		}
+		.box6_tow2_5>img,.box6_tow2_3>img{
+			width: 20px;
+			height: 20px;
+		}
+		.box6_tow2_5{
+			width:431px;
+			height:64px;
+			background:rgba(215,36,47,1);
+			border-radius:32px;
+			margin-left: 30px;
+			border:2px solid rgba(215,36,47,1);
+			padding: 0 30px;
+			box-sizing: border-box;
+			font-size: 20px;
+			color: #ffffff;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="wrapper headWrap">
+            <h1 id="logo">
+                <img src="./img/home/logo.png">
+            </h1>
+            <div class="navWrap">
+                <div class="languageWrap">
+                    <ul class="langList">
+                        <li class="langItem">US</li>
+                        <li class="langItem">EN</li>
+                        <li class="langItem">DE</li>
+                        <li class="langItem">ES</li>
+                    </ul>
+                </div>
+                <div class="navigationWrap">
+                    <nav class="navigation">
+                        <ul class="navList">
+                            <li class="navItem"><a href="#">Invest</a></li>
+                            <li class="navItem"><a href="#">Home</a></li>
+                            <li class="navItem"><a href="#">Products</a></li>
+                            <li class="navItem"><a href="#">Platforms</a></li>
+                            <li class="navItem"><a href="#">Resources</a></li>
+                            <li class="navItem"><a href="#">About us</a></li>
+                            <li class="navItem"><a href="#">Z-axis</a></li>
+                        </ul>
+                    </nav>
+                    <span class="iSearch"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article class="main_box">
+		<div class="box2">
+			<div class="fot1">SABER3D</div>
+			<div class="fot2">All-In-One 3D Inspection Module</div>
+		</div>
+		<div class="box1">
+			<img class="img2" src="img/predator3D/back_to_home.png" >> 
+			<a href="" class="fot3">Our Products</a>> 
+			<a href="" class="fot4">Saber 3D</a>
+		</div>
+		<div class="box3">
+			<div class="box3_1">
+				 <span class="box3_1_f">The Saber3D Series</span> is the latest major advancement from Coherix for semiconductor inspection and metrology. Coherix provides high-speed, in-line inspection products for the electronics and semiconductor industries, eliminating the need for handlers to stop the assembly process for inspection. This solution streamlines the process, increases throughput and enhances accuracy. Saber3D measures semiconductor packages optically on-the-fly. This high definition vision system performs 3D measurements with package-quality inspection options and processes them internally without the need for external computing resources. Saber3D incorporates a state-of-the-art LED lighting system with multiple cameras similar to the 3DX. The image processing is carried out by Coherix i-Cite software, providing a wide range of tools for better process control and yield optimization. This total package creates the most compact, advanced and cost-effective 3D inspection solution available
+			</div>
+		</div>
+		<div class="box6">
+			<div class="box6_one">
+				<div class="box6_one_1">Features</div>
+				<div class="box6_one_2">3D high-definition, multi-camera triangulation technology</div>
+				<div class="box6_one_2">Snapshot area measurements – no lasers, no line scanning</div>
+				<div class="box6_one_2">Multi-spectral LED strobe lighting</div>
+				<div class="box6_one_2">Simultaneous multi-part and ROI capability increases throughput</div>
+				<div class="box6_one_2">Latest configuration of leaded, BGA and QFN package styles supported</div>
+				<div class="box6_one_2">No hardware change-over required between package types</div>
+				<div class="box6_one_2">No external computing resources required</div>
+			</div>
+			<div class="box6_tow">
+				<div class="box6_one_1">Preliminary Specifications</div>
+				<div class="box6_tow_2">
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">1600+ bead profiles per second with combined 4 lasers</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">FOV 40mm wide x 20mm deep x 360 degree</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">60mm, 125mm and 200mm standoff</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">24 V power-approximately 40 watts</div>
+					</div>
+				</div>
+				<div class="box6_tow_2">
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">Total weight <1.7kg</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">0 to 45C operating temperature</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">IP65 environmental seal</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">Visible Laser Class 3A/3R</div>
+					</div>
+				</div>
+				<div class="box6_tow_2">
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">IP65 environmental seal</div>
+					</div>
+					<div class="box6_tow_1">
+						<div class="box6_tow_3">Visible Laser Class 3A/3R</div>
+					</div>
+				</div>
+				
+				
+				
+				<div class="box6_tow2_4">
+					<!-- <div class="box6_tow2_3">
+						<img src="img/coherixjobs/Group%202%20Copy%202.png" >
+						<div>Download：Predator3D Spec Sheet</div>
+					</div> -->
+					<div class="box6_tow2_5">
+						<img src="img/predator3D/download(white).png" alt="">
+						<div>Download：Saber3D Spec Sheet</div>
+					</div>
+				</div>
+				
+				
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+	</article>
+    <footer class="footer">
+        <div class="wrapper footWrap">
+            <h2 class="footLogo">
+                <img src="./img/home/logo.png" width="168" height="54">
+            </h2>
+            <div class="browse">
+                <h3>Browse</h3>
+                <ul class="browseList">
+                    <li class="browseItem"><a href="#">Invest</a></li>
+                    <li class="browseItem"><a href="#">Home</a></li>
+                    <li class="browseItem"><a href="#">Products</a></li>
+                    <li class="browseItem"><a href="#">Platforms</a></li>
+                    <li class="browseItem"><a href="#">Resources</a></li>
+                    <li class="browseItem"><a href="#">About us</a></li>
+                    <li class="browseItem"><a href="#">Z-axis</a></li>
+                </ul>
+            </div>
+            <div class="concat">
+                <h3>Concat</h3>
+                <p>
+                    Coherix Headquarters 3980 Ranchero Dr. Ann Arbor, MI 48108
+                </p>
+                <div>
+                    <a href="tel:734-922-4073">Tel: 734-922-4073</a>
+                    <a href="fax:734-761-9193">Fax: 734-761-9193</a>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <a href="#">
+                    <img src="./img/home/social1.png" width="26" height="26" />
+                </a>
+                <a href="#">
+                    <img src="./img/home/social2.png" width="26" height="26" />
+                </a>
+                <a href="#">
+                    <img src="./img/home/social3.png" width="26" height="26" />
+                </a>
+                <a href="#">
+                    <img src="./img/home/social4.png" width="26" height="26" />
+                </a>
+            </div>
+        </div>
+        <div class="copyright">Copyright @ 2018 Coherix</div>
+    </footer>
+</body>
+</html>

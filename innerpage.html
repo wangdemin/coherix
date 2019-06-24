@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>home</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/zxf_page.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zxf_page.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			.main_box {
+				width: 1280px;
+				text-align: center;
+				margin: 0 auto;
+				background: rgba(240, 243, 246, 1);
+				/* height: 10000px; */
+				overflow: hidden;
+			}
+
+			.box1 {
+				width: 100%;
+				height: 50px;
+				padding-left: 180px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				/* border: 1px solid red; */
+				font-size: 25px;
+			}
+
+			.img2 {
+				width: 30px;
+				height: 25px;
+			}
+
+			.fot1 {
+				font-size: 66px;
+				font-weight: bold;
+				color: #FFFFFF;
+				margin: 123px 0 16px 0;
+			}
+
+			.fot3 {
+				color: #021774;
+			}
+
+			.fot4 {
+				color: #081032;
+			}
+
+			.box3 {
+				background-color: #FFFFFF;
+				padding: 0 180px;
+				box-sizing: border-box;
+				overflow: hidden;
+				position: relative;
+				z-index: 10000;
+			}
+
+			.box3_1 {
+				width: 920px;
+				height: 208px;
+				font-size: 32px;
+				font-family: AvenirNext-DemiBold;
+				/* font-weight:600; */
+				color: rgba(2, 23, 116, 1);
+				line-height: 44px;
+				margin-top: 54px;
+				margin-bottom: 60px;
+			}
+
+			.box3_2 {
+				height: 50px;
+				background: rgba(245, 245, 245, 1);
+				padding: 0 20px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				font-size: 18px;
+				font-family: AvenirNext-Regular;
+				font-weight: 400;
+				color: rgba(8, 16, 50, 1);
+				line-height: 25px;
+				margin-bottom: 30px;
+			}
+
+			.box3_2>img {
+				width: 18px;
+				height: 18px;
+				margin-right: 10px;
+			}
+
+			.box3_3 {
+				font-size: 18px;
+				font-family: AvenirNext-Regular;
+				font-weight: 400;
+				color: rgba(8, 16, 50, 1);
+				line-height: 36px;
+				text-align: left;
+			}
+
+			.box3_4 {
+				font-size: 18px;
+				color: #081032;
+				font-weight: bold;
+				margin: 30px 0;
+			}
+			.box3_5{
+				margin-bottom: 60px;
+			}
+			.box3_5>img{
+				width:46px;
+				height:46px;
+				margin-right: 20px;
+			}
+			.img1:hover{
+				content:url(img/inner%20page/share1（mouse%20over）.png);
+			}
+			.img2:hover{
+				content:url(img/inner%20page/share2（mouse%20over）.png);
+			}
+			.img3:hover{
+				content:url(img/inner%20page/share3（mouse%20over）.png);
+			}
+			.img4:hover{
+				content:url(img/inner%20page/share4（mouse%20over）.png);
+			}
+			.img5:hover{
+				content:url(img/inner%20page/share5（mouse%20over）.png);
+			}
+			.box3_6{
+				font-size:32px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(2,23,116,1);
+				line-height:50px;
+				text-align: center;
+				margin-bottom: 40px;
+			}
+			.box4{
+				height:660px;
+				padding: 60px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.box4_1{
+				width:340px;
+				height:520px;
+				background:rgba(255,255,255,1);
+				box-shadow:0px 12px 34px 0px rgba(203,212,222,1);
+			}
+			.box4_img{
+				width: 100%;
+				height: 200px;
+				
+			}
+			.box4_2{
+				padding: 30px;
+				box-sizing: border-box;
+				font-size:18px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(8,16,50,1);
+				line-height:32px;
+				text-align: left;
+			}
+			.box4_fot1{
+				font-size:16px;
+				font-family:AvenirNext-Regular;
+				font-weight:400;
+				color:rgba(153,153,153,1);
+				line-height:28px;
+				margin: 46px 0 30px 0;
+			}
+			.box4_img3{
+				width:16px;
+				height:12px;
+				margin-right: 10px;
+			}
+			.box4_3{
+				font-size:20px;
+				font-family:AvenirNext-DemiBold;
+				font-weight:600;
+				color:rgba(215,36,47,1);
+				line-height:28px;
+			}
+		</style>
+	</head>
+	<body>
+		<header id="header">
+			<div class="wrapper headWrap">
+				<h1 id="logo">
+					<img src="./img/home/logo.png">
+				</h1>
+				<div class="navWrap">
+					<div class="languageWrap">
+						<ul class="langList">
+							<li class="langItem">US</li>
+							<li class="langItem">EN</li>
+							<li class="langItem">DE</li>
+							<li class="langItem">ES</li>
+						</ul>
+					</div>
+					<div class="navigationWrap">
+						<nav class="navigation">
+							<ul class="navList">
+								<li class="navItem"><a href="#">Invest</a></li>
+								<li class="navItem"><a href="#">Home</a></li>
+								<li class="navItem"><a href="#">Products</a></li>
+								<li class="navItem"><a href="#">Platforms</a></li>
+								<li class="navItem"><a href="#">Resources</a></li>
+								<li class="navItem"><a href="#">About us</a></li>
+								<li class="navItem"><a href="#">Z-axis</a></li>
+							</ul>
+						</nav>
+						<span class="iSearch"></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<article class="main_box">
+			<div class="box1">
+				<img class="img2" src="img/predator3D/back_to_home.png">>
+				<a href="" class="fot3">Products</a>>
+				<a href="" class="fot4">Robust3D</a>>
+				<a href="" class="fot4">Download： Robust Overview</a>
+			</div>
+			<div class="box3">
+				<div class="box3_1">
+					Production Evaluation Method Comparison between Metrology Gauge and Error-Proofing Systems
+				</div>
+				<div class="box3_2">
+					<img src="img/inner%20page/time.png">
+					<div>
+						<span>MAR 7，2019</span>&#x3000&#x3000
+						<span>by:Dr. Zhenhua Huang</span>
+					</div>
+				</div>
+				<div class="box3_3">
+					<div>
+						In mass production environments,
+						high-quality consistency and high throughput are absolutely critical for any manufacturer to win highly
+						competitive market share. To achieve the necessary consistency and throughput,
+						many manufacturers are using metrology gauges and error-proofing (poka-yoke) systems. Both metrology gauges and
+						error-proofing systems need performance verification to ensure they are capable of performing their designed
+						functions. However,
+						the verification criteria and procedures are fundamentally different because the systems are designed for two
+						very different purposes. Unfortunately,
+						people often get confused on what method to use for evaluation,
+						since both metrology gauge and error-proofing systems produce numerical readings. This analysis should provide
+						some much needed guidance.
+					</div>
+					<div class="box3_4">Metrology Gauges</div>
+					<div>
+						A growing variety of metrology gauges are being used for engineering analysis, troubleshooting, auditing, process
+						capability evaluation, statistical process control, etc. To ensure a metrology gauge is capable of producing the
+						requisite fiduciary data without contributing unnecessary uncertainty, the industry has specified a standard
+						process [1] to evaluate the accuracy, linearity, stability, repeatability, and reproducibility of metrology gauge
+						numerical readings. This process is commonly called “Gauge R&R” by the automotive industry. The Gauge R&R process
+						is typically performed in a controlled environment with minimum interaction with other equipment to avoid the
+						environmental impact or the impact from other equipment on gauge’s performance. A small part sample (5-10 parts
+						to cover a full range of part tolerance) is measured by a small group of operators (2-3 operators) multiple times
+						on the same gauge. The results are fed into a table or into ANOVA (Analysis of Variation) software to derive the
+						repeatability (“equipment variation (EV)”), and the reproducibility (“appraiser variation (AV)”). These two
+						numbers are then combined into single gauge repeatability & reproducibility (“Gauge R&R”) number. This Gauge R&R
+						number needs to be less than 10% of the part tolerance to be unconditionally accepted as a golden standard by the
+						industry. Some manufacturers even go beyond to calculate Cg and Cgk to bake both accuracy and
+						repeatability/reproducibility of a gauge into their evaluation criteria. This Gauge R&R process is feasible only
+						because it is performed in a controlled environment with minimum interaction with other equipment.
+					</div>
+					<div class="box3_4">Error-proofing Solutions</div>
+					<div>
+						Error-proofing systems, on the other hand, are designed for use in a production environment to catch random
+						manufacturing failures/errors. To catch random failures, an error-proofing system has to inspect every single
+						part and has to survive in a tough and varying production environment: robot movement variation,
+						conveyor/fixturing variation, part temperature variation, ambient lighting variation, part color and texture
+						variation, part surface cleanliness variation, part batch variation from different suppliers or from different
+						die…..the list of production variables can go on and on and on. For this very specific reason, the overall system
+						robustness is much more important and practically meaningful than a single Gauge R&R number (which is typically
+						generated in a lab rather than a production environment). In fact, some sophisticated error-proofing systems use
+						more than one numerical reading/criterion for decision-making just so that enough redundancy is built up for
+						robustness. It would be trickier, sometimes even misleading, to attempt to apply a Gauge R&R process to
+						multi-criteria sophisticated error-proofing systems. Instead, there are mainly two aspects of the robustness of
+						an error-proofing system that need to be evaluated. The two main criteria for robustness for evaluating an
+						error-proofing system are: False positive (calling good parts bad – type I error), also called nuisance failure
+						or false rejects False negative (calling bad parts good, type II error), also called miss rate The goal is to
+						keep both numbers as low as possible. To be able to justify an investment of an error-proofing system, it has to
+						be able to catch every bad part reliably, which means typically 0% false negative is required. At the same time,
+						to avoid the hassle of manually interacting with the error-proofing system often and/or to minimize the downtime
+						caused by the error-proofing system, the false positive rate has to be very low, typically no more than 0.5%-1%
+						(or no less than 99%-99.5% run rate) in the automotive industry. This rigorous evaluation has to be performed in
+						a production environment on a significant part sample size (such as a full day of production) to cover a full
+						range of production environment and a full range of pre-determined failure modes. To further ensure an
+						error-proofing system performs as designed, a series of master part samples with representative failure modes can
+						be run through the system at the beginning of every shift for sanity check as a common practice by many
+						manufacturers.
+					</div>
+					<div class="box3_4">Summary</div>
+					<div>
+						There is a fundamental difference between the designed purpose of a metrology gauge and an error-proofing system.
+						This difference determines how a gauge and an error-proofing system should be evaluated. For a metrology gauge,
+						which will be mainly used in a controlled environment with minimum interaction with other equipment, a typical
+						Gauge R&R process should be performed; whereas for an error-proofing system, which will be used in tough
+						production environment with a lot of variations from different sources, robustness (or more specifically false
+						reject rates and miss rates) should be the main criterion for evaluation. 1.Measurement Systems Analysis (MSA),
+						Automotive Industry Action Group, 2010
+					</div>
+					<div class="box3_4">Please Share This</div>
+					<div class="box3_5">
+						<img class="img1" src="img/inner%20page/share1（normal）.png" alt="">
+						<img class="img2" src="img/inner%20page/share2（normal）.png" alt="">
+						<img class="img3" src="img/inner%20page/share3（normal）.png" alt="">
+						<img class="img4" src="img/inner%20page/share4（normal）.png" alt="">
+						<img class="img5" src="img/inner%20page/share5（normal）.png" alt="">
+					</div>
+					<div class="box3_6">Recent Posts</div>
+				</div>
+			</div>
+			<div class="box4">
+				<div class="box4_1">
+					<img class="box4_img" src="img/about%20us/2.png" >
+					<div class="box4_2">
+						<div>Production Evaluation Method Comparison between Metrology Gauge and Error-Proofing Systems</div>
+						<div class="box4_fot1">APR 13,2019</div>
+						<div class="box4_3">
+							<img class="box4_img3" src="img/home/readMore.png" >
+							<span>Read more</span>
+						</div>
+					</div>
+				</div>
+				<div class="box4_1">
+					<img class="box4_img" src="img/about%20us/2.png" >
+					<div class="box4_2">
+						<div>Production Evaluation Method Comparison between Metrology Gauge and Error-Proofing Systems</div>
+						<div class="box4_fot1">APR 13,2019</div>
+						<div class="box4_3">
+							<img class="box4_img3" src="img/home/readMore.png" >
+							<span>Read more</span>
+						</div>
+					</div>
+				</div>
+				<div class="box4_1">
+					<img class="box4_img" src="img/about%20us/2.png" >
+					<div class="box4_2">
+						<div>Production Evaluation Method Comparison between Metrology Gauge and Error-Proofing Systems</div>
+						<div class="box4_fot1">APR 13,2019</div>
+						<div class="box4_3">
+							<img class="box4_img3" src="img/home/readMore.png" >
+							<span>Read more</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</article>
+		<footer class="footer">
+			<div class="wrapper footWrap">
+				<h2 class="footLogo">
+					<img src="./img/home/logo.png" width="168" height="54">
+				</h2>
+				<div class="browse">
+					<h3>Browse</h3>
+					<ul class="browseList">
+						<li class="browseItem"><a href="#">Invest</a></li>
+						<li class="browseItem"><a href="#">Home</a></li>
+						<li class="browseItem"><a href="#">Products</a></li>
+						<li class="browseItem"><a href="#">Platforms</a></li>
+						<li class="browseItem"><a href="#">Resources</a></li>
+						<li class="browseItem"><a href="#">About us</a></li>
+						<li class="browseItem"><a href="#">Z-axis</a></li>
+					</ul>
+				</div>
+				<div class="concat">
+					<h3>Concat</h3>
+					<p>
+						Coherix Headquarters 3980 Ranchero Dr. Ann Arbor, MI 48108
+					</p>
+					<div>
+						<a href="tel:734-922-4073">Tel: 734-922-4073</a>
+						<a href="fax:734-761-9193">Fax: 734-761-9193</a>
+					</div>
+				</div>
+				<div class="about">
+					<h3>About</h3>
+					<a href="#">
+						<img src="./img/home/social1.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social2.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social3.png" width="26" height="26" />
+					</a>
+					<a href="#">
+						<img src="./img/home/social4.png" width="26" height="26" />
+					</a>
+				</div>
+			</div>
+			<div class="copyright">Copyright @ 2018 Coherix</div>
+		</footer>
+
+
+
+
+		
+	</body>
+</html>
