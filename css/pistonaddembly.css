@@ -78,14 +78,14 @@
 				width: 920px;
 				height: 616px;
 				font-size: 24px;
-				font-family: AvenirNext-Bold;
+				font-family: AvenirNext-Medium;
 				color: rgba(8, 16, 50, 1);
 				line-height: 44px;
 				text-align: left;
 				margin-top: 54px;
 				margin-bottom: 60px;
 			}
-
+			.box3_1 span{font-family: AvenirNext-Bold; display: inline-block}
 			.btn {
 				width: 412px;
 				height: 64px;

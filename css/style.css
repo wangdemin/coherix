@@ -57,10 +57,16 @@
     font-weight: 400;
     color: rgba(255, 255, 255, .7);
     margin-left: 16px;
+    font-family:AvenirNext-Regular;
+
 }
 
 .navList .navItem {
     margin: 0 20px;
+    font-size:18px;
+    font-family:AvenirNext-DemiBold;
+    font-weight:600;
+    color:rgba(255, 255, 255, 1);
 }
 .secTitle{
     

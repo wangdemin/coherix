@@ -32,14 +32,15 @@
 			color: #FFFFFF;
 		}
 		.dot-bottom {
-			width:0;
-			height:0;
-			border-right:30px solid transparent;
-			border-left:30px solid transparent;
-			border-top:80px solid white;
-			position: absolute;
-			bottom: -50px;
-			left: 610px;
+			    width: 0;
+			    height: 0;
+			    border-right: 16px solid transparent;
+			    border-left: 16px solid transparent;
+			    border-top: 30px solid white;
+			    position: absolute;
+			    bottom: -30px;
+			    left: 50%;
+			    margin-left: -16px;
 		}
 		.current{
 			background: #BBBBBB;

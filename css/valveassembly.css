@@ -9,13 +9,14 @@
 			.dot-bottom {
 				width:0;
 				height:0;
-				border-right:30px solid transparent;
-				border-left:30px solid transparent;
-				border-top:80px solid white;
+				border-right:16px solid transparent;
+				border-left:16px solid transparent;
+				border-top:30px solid white;
 				position: absolute;
-				top: -40px;
-				left: 610px;
-				z-index: 10000;
+				top: 0px;
+				left: 50%;
+				margin-left: -16px;
+				z-index: 10;
 			}
 			.box2 {
 				width: 100%;
