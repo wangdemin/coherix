@@ -5,6 +5,21 @@
 			background:rgba(240,243,246,1);
 			/* height: 10000px; */
 		}
+		.dot-bottom {
+			width:0;
+			height:0;
+			border-right:30px solid transparent;
+			border-left:30px solid transparent;
+			border-top:80px solid white;
+			position: absolute;
+			bottom: -50px;
+			left: 610px;
+		}
+		.j_img{
+			width:5px;
+			height:10px;
+			margin: 0 10px;
+		}
         .box2{
 			width: 100%;
 			height: 375px;
@@ -24,10 +39,16 @@
 			align-items: center;
 			/* border: 1px solid red; */
 			font-size: 25px;
+			margin-top: -40px;
+		}
+		.j_img{
+			width:5px;
+			height:10px;
+			margin: 0 10px;
 		}
 		.img2{
-			width: 30px;
-			height: 25px;
+			width:20px;
+			height:17px;
 		}
 		.fot1{
 			font-size: 66px;
@@ -42,9 +63,19 @@
 		}
 		.fot3{
 			color: #021774;
+			font-size:18px;
+			font-family:AvenirNext-Medium;
+			font-weight:500;
+			color:rgba(2,23,116,1);
+			line-height:25px;
 		}
 		.fot4{
 			color: #081032;
+			font-size:18px;
+			font-family:AvenirNext-Medium;
+			font-weight:500;
+			color:rgba(8,16,50,1);
+			line-height:25px;
 		}
 		.box3{
 			width: 100%;
@@ -63,7 +94,7 @@
 			/* height: 352px; */
 			font-size: 24px;
 			color: #081032;
-			/* text-align: center; */
+			text-align: left;
 			line-height:44px;
 			margin: 0 auto;
 		}
@@ -87,7 +118,7 @@
 		}
 		.box6{
 			/* height: 1862px; */
-			background-image: url(img/saber/features.png);
+			background-image: url(../img/saber/features.png);
 			background-size: 100% 100%;
 			background-repeat: no-repeat;
 			margin-bottom: 80px;
@@ -173,6 +204,7 @@
 		.box6_tow2_5>img,.box6_tow2_3>img{
 			width: 20px;
 			height: 20px;
+			margin-right: 10px;
 		}
 		.box6_tow2_5{
 			width:431px;
@@ -195,6 +227,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			position: relative;
 		}
 		.box7_1{
 			width:920px;
@@ -222,7 +255,7 @@
 		}
 		.box8_1_1{
 			height:210px;
-			background-image: url(img/piston%20assembly/piston%20assembly.png);
+			background-image: url(../img/robust/Piston%20Assembly.png);
 			background-size: 100% 100%;
 			background-repeat: no-repeat;
 			position: relative;
@@ -250,6 +283,7 @@
 			color:rgba(8,16,50,1);
 			line-height:24px;
 			margin-top: 50px;
+			text-align: left;
 		}
 		.img_box8{
 			width: 16px;

@@ -26,10 +26,14 @@ $(function() {
 		$('.xia2').hide()
 	});
 	$(".xia1_1,.xia2_1").hover(function() {
-		$(this).addClass('active_tb1').siblings().removeClass('active_tb1')
+		$(this).addClass('active_tb1')
+		$(this).find('a').css('color','red !important')
 	}, function() {
 		$(this).removeClass('active_tb1')
 	});
-
+	// $('.ss_box1').css({
+	// 	"width":document.body.clientWidth,
+	// 	"height":document.body.clientHeight
+	// })
 
 })

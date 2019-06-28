@@ -15,9 +15,39 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
     background: transparent;
 }
+@font-face {
+    font-family: "AvenirNext-DemiBold";
+    src: url('../fonts/AvenirNext-DemiBold-03.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNext-Bold";
+    src: url('../fonts/AvenirNext-Bold-01.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNext-Medium";
+    src: url('../fonts/AvenirNext-Medium-06.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNext-Regular";
+    src: url('../fonts/AvenirNext-Regular-08.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     line-height: 1;
-    font-family:Microsoft Yahei, WenQuanYi Micro Hei, sans-serif;
+    font-family:"AvenirNext-DemiBold",
+    "Microsoft Yahei",
+    "WenQuanYi Micro Hei",
+    "sans-serif";
 }
 ol, ul {
     list-style: none;

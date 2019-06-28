@@ -26,11 +26,12 @@
 				align-items: center;
 				/* border: 1px solid red; */
 				font-size: 25px;
+				margin-top: -40px;
 			}
 
-			.img2 {
-				width: 30px;
-				height: 25px;
+			.img2{
+				width:20px;
+				height:17px;
 			}
 
 			.fot1 {
@@ -46,12 +47,26 @@
 				color: #FFFFFF;
 			}
 
-			.fot3 {
+			.fot3{
 				color: #021774;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(2,23,116,1);
+				line-height:25px;
 			}
-
-			.fot4 {
+			.fot4{
 				color: #081032;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(8,16,50,1);
+				line-height:25px;
+			}
+			.j_img{
+				width:5px;
+				height:10px;
+				margin: 0 10px;
 			}
 
 			.box3 {
@@ -61,6 +76,7 @@
 				margin-top: 10px;
 				overflow: hidden;
 				text-align: center;
+
 			}
 
 			.box3_1 {
@@ -70,6 +86,7 @@
 				text-align: left;
 				line-height: 44px;
 				margin: 80px auto;
+				font-family:AvenirNext-Medium;
 			}
 
 			.box3_1_f {

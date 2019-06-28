@@ -6,7 +6,17 @@
 				/* height: 10000px; */
 				overflow: hidden;
 			}
-
+			.dot-bottom {
+				width:0;
+				height:0;
+				border-right:30px solid transparent;
+				border-left:30px solid transparent;
+				border-top:80px solid white;
+				position: absolute;
+				top: -110px;
+				left: 610px;
+				z-index: 10000000;
+			}
 			.img2 {
 				width: 30px;
 				height: 25px;
@@ -34,7 +44,7 @@
 				box-sizing: border-box;
 				overflow: hidden;
 				position: relative;
-				z-index: 10000;
+				z-index: 99;
 			}
 
 			.box3_1 {

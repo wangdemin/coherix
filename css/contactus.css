@@ -9,7 +9,7 @@
 			.box2 {
 				width: 100%;
 				height: 375px;
-				background-image: url(../img/about%20us/2.png);
+				background-image: url(../img/contact%20us/contact%20us.png);
 				background-size: 100% 100%;
 				background-repeat: no-repeat;
 				text-align: center;
@@ -28,9 +28,9 @@
 				font-size: 25px;
 			}
 
-			.img2 {
-				width: 30px;
-				height: 25px;
+			.img2{
+				width:20px;
+				height:17px;
 			}
 
 			.fot1 {
@@ -46,14 +46,27 @@
 				color: #FFFFFF;
 			}
 
-			.fot3 {
+			.fot3{
 				color: #021774;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(2,23,116,1);
+				line-height:25px;
 			}
-
-			.fot4 {
+			.fot4{
 				color: #081032;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(8,16,50,1);
+				line-height:25px;
 			}
-
+			.j_img{
+				width:5px;
+				height:10px;
+				margin: 0 10px;
+			}
 			.box3 {
 				width: 100%;
 				/* height: 492px; */
@@ -71,6 +84,8 @@
 				text-align: left;
 				line-height: 44px;
 				margin: 60px 0;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
 			}
 
 			.box3_1_f {
@@ -83,7 +98,7 @@
 				background-color: #FFFFFF;
 				display: flex;
 				justify-content: space-between;
-				align-items: center;
+				align-items: flex-start;
 				margin-bottom: 90px;
 			}
 
@@ -94,34 +109,47 @@
 
 			.box4_1 {
 				width: 440px;
-				font-size: 24px;
-				color: #021774;
 				padding-bottom: 14px;
 				box-sizing: border-box;
 				font-weight: bold;
-				border-bottom: 2px solid #021774;
+				border-bottom: 1px solid #021774;
 				text-align: left;
 				margin-bottom: 20px;
+				font-size:24px;
+				font-family:AvenirNext-Bold;
+				font-weight:bold;
+				color:rgba(2, 23, 116, 1);
+				margin-top: 16px;
 			}
 
 			.box4_2 {
 				display: flex;
 				justify-content: center;
-				margin-bottom: 10px;
+				height: 38px;
+				align-items: center;
 			}
 
 			.box4_3 {
 				width: 70px;
 				text-align: left;
 				font-size: 18px;
-				color: #021774;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(2, 23, 116, 1);
 			}
 
 			.box4_4 {
-				width: 330px;
+				width: 350px;
 				text-align: left;
-				font-size: 18px;
-				color: #081032;
+				font-size:18px;
+				font-family:AvenirNext-Medium;
+				font-weight:500;
+				color:rgba(8, 16, 50, 1);
+			}
+			.box4_bold {
+				font-family:AvenirNext-Bold;
+				font-weight:bold;
+				color:rgba(2, 23, 116, 1);
 			}
 			.box5{
 				background-color: #FFFFFF;
@@ -129,7 +157,7 @@
 			}
 			.box6{
 				height:802px;
-				background-image: url(img/bg.png);
+				background-image: url(../img/bg.png);
 				background-size: 100% 100%;
 				background-repeat: no-repeat;
 				overflow: hidden;

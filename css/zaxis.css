@@ -35,7 +35,6 @@
 				box-sizing: border-box;
 				display: flex;
 				justify-content: space-between;
-				align-items: center;
 			}
 
 			.box2_1 {
@@ -118,6 +117,7 @@
 				line-height:32px;
 				margin-left: 30px;
 				text-align: left;
+				text-decoration: underline;
 			}
 			.box3_4{
 				margin-top: 45px;
