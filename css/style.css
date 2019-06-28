@@ -5,6 +5,7 @@
 
 #header {
     background: #081032;
+    min-width: 1280px;
 }
 
 #logo {
@@ -186,6 +187,7 @@
 }
 .footer{
     background:rgba(8, 16, 50, 1);
+    min-width: 1280px;
 }
 .footWrap{
     height: 360px;

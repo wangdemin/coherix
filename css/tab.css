@@ -63,6 +63,7 @@
 	width: 18px;
 	height: 18px;
 	margin-left: 72px;
+	cursor: pointer;
 }
 .active_tb1,
 .active_tb1>a {
@@ -128,6 +129,7 @@
 	position: absolute;
 	top: 60px;
 	right: 60px;
+	cursor: pointer;
 }
 
 

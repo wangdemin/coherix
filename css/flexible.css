@@ -84,7 +84,7 @@
 				box-sizing: border-box;
 				overflow: hidden;
 				position: relative;
-				z-index: 10000;
+				z-index: 9;
 			}
 
 			.box3_1 {
