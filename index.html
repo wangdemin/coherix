@@ -1,21 +1,475 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>home</title>
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/tab.css"/>
-	<script src="js/tabdh.js" type="text/javascript" charset="utf-8"></script>
-    <style>
-        
-    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>COHERIX</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/tab.css" />
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-    <script src="./js/header.js"></script>
-    <article></article>
-    <script src="./js/footer.js"></script>
+
+<body id="index">
+    <script src="js/header.js"></script>
+    <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators bannerGeneric">
+            <li class="carInd active" data-target="#carousel-generic" data-slide-to="0" ></li>
+            <li class="carInd" data-target="#carousel-generic" data-slide-to="1"></li>
+            <li class="carInd" data-target="#carousel-generic" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./img/index/banner1.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/index/banner1.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/index/banner1.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="row rowBlock productFeatures">
+            <div class="col-xs-12">
+                <h2>Product Features</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>
+                    3D real-time online glue detection system <br>
+                    Gluing process control and remote optimization <br>
+                    Production data analysis optimization
+                </p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1">
+                <img style="width:100%" src="./img/index/product.png">
+            </div>
+    
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row rowBlock whoweare">
+            <div class="col-xs-12">
+                <h2>Who We Are</h2>
+                <span class="linewhite"></span>
+            </div>
+           
+            <div class="col-xs-12">
+                <p>
+                Coherix, Inc. develops and manufactures high-speed, high-definition 3D machine vision products that <br>
+                enable our customersto manage high-volume precision manufacturing processes. Coherix products <br>
+                are designed for inspection and error-proofing in the automotive, semiconductor, and electronics <br>
+                industries. Coherix is committed to producing the highest performing 3D machine vision products at <br>
+                the lowest Total Cost of Ownership. Coherix customers and partners include global end users, system<br>
+                integrators, and distributors, who demand 100 percent reliability from Coherix products.<br>
+                Headquartered in Ann Arbor, Michigan, the company has offices in the United States, China, Germany, <br>
+                Singapore, and Japan.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row rowBlock ourTeam">
+            <div class="col-xs-12">
+                <h2>Our Team</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>
+                Tell us about your strong team. A few lines of self-introduction can quickly bring you closer to your visitors.
+                </p>
+            </div>
+            
+        </div>
+        <row>
+            <div id="carousel-ourTeam" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active ">
+                        <div class="ourTeamItemWrap">
+                            <dl class="ourTeamItem">
+                                <dt class="ourTeamImg">
+                                    <img src="./img/index/people.png">
+                                </dt>
+                                <dd class="ourTeamTips">General Manager</dd>
+                                <dd class="ourTeamTit">General Manager</dd>
+                                <dd class="ourTeamInfo">
+                                    Dr. Huang has been involved in developing advanced three-dimensional metrology
+                                    algorithms since 2002. His vast experience includes the use of cutting-edge laser
+                                    holography technology to develop high definition disk-thickness-variation
+                                </dd>
+                            </dl>
+                            <dl class="ourTeamItem hidden-xs ">
+                                <dt class="ourTeamImg">
+                                    <img src="./img/index/people.png">
+                                </dt>
+                                <dd class="ourTeamTips">General Manager</dd>
+                                <dd class="ourTeamTit">General Manager</dd>
+                                <dd class="ourTeamInfo">
+                                    Dr. Huang has been involved in developing advanced three-dimensional metrology
+                                    algorithms since 2002. His vast experience includes the use of cutting-edge laser
+                                    holography technology to develop high definition disk-thickness-variation
+                                </dd>
+                            </dl>
+                            <dl class="ourTeamItem hidden-xs hidden-sm ">
+                                <dt class="ourTeamImg">
+                                    <img src="./img/index/people.png">
+                                </dt>
+                                <dd class="ourTeamTips">General Manager</dd>
+                                <dd class="ourTeamTit">General Manager</dd>
+                                <dd class="ourTeamInfo">
+                                    Dr. Huang has been involved in developing advanced three-dimensional metrology
+                                    algorithms since 2002. His vast experience includes the use of cutting-edge laser
+                                    holography technology to develop high definition disk-thickness-variation
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ourTeamItemWrap">
+                            <dl class="ourTeamItem">
+                                <dt class="ourTeamImg">
+                                    <img src="./img/index/people.png">
+                                </dt>
+                                <dd class="ourTeamTips">General Manager</dd>
+                                <dd class="ourTeamTit">General Manager</dd>
+                                <dd class="ourTeamInfo">
+                                    Dr. Huang has been involved in developing advanced three-dimensional metrology
+                                    algorithms since 2002. His vast experience includes the use of cutting-edge laser
+                                    holography technology to develop high definition disk-thickness-variation
+                                </dd>
+                            </dl>
+                            <dl class="ourTeamItem hidden-xs ">
+                                <dt class="ourTeamImg">
+                                    <img src="./img/index/people.png">
+                                </dt>
+                                <dd class="ourTeamTips">General Manager</dd>
+                                <dd class="ourTeamTit">General Manager</dd>
+                                <dd class="ourTeamInfo">
+                                    Dr. Huang has been involved in developing advanced three-dimensional metrology
+                                    algorithms since 2002. His vast experience includes the use of cutting-edge laser
+                                    holography technology to develop high definition disk-thickness-variation
+                                </dd>
+                            </dl>
+                            <dl class="ourTeamItem hidden-xs hidden-sm ">
+                                <dt class="ourTeamImg">
+                                    <img src="./img/index/people.png">
+                                </dt>
+                                <dd class="ourTeamTips">General Manager</dd>
+                                <dd class="ourTeamTit">General Manager</dd>
+                                <dd class="ourTeamInfo">
+                                    Dr. Huang has been involved in developing advanced three-dimensional metrology
+                                    algorithms since 2002. His vast experience includes the use of cutting-edge laser
+                                    holography technology to develop high definition disk-thickness-variation
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left-control" href="#carousel-ourTeam" role="button" data-slide="prev">
+                    <span class="" aria-hidden="true"><img src="./img/index/team_arrow1.png" width="36"
+                            height="36"></span>
+                </a>
+                <a class="right-control" href="#carousel-ourTeam" role="button" data-slide="next">
+                    <span class="" aria-hidden="true"><img src="./img/index/team_arrow2.png" width="36"
+                            height="36"></span>
+                </a>
+            </div>
+        </row>
+    </div>
+    <div class="container-fluid blockBgGray">
+        <div class="row rowBlock productSales">
+            <div class="col-xs-12">
+                <h2>Product Sales</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>
+                    Let the facts speak, our sales data proves our profession.
+                </p>
+            </div>
+            <div class="col-xs-10 col-xs-push-1">
+                <div class="salesWrap">
+                    <div class="salesItem">
+                        <div class="progress bigCircle">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="smallCircle">
+                                <img width="53" height="53" src="./img/index/serviceadvantage.png">
+                                <span class="salesNum">
+                                    767
+                                </span>
+                            </div>
+                        </div>
+                        <div class="salesDesc">
+                            Distribution Country
+                        </div>
+                    </div>
+                    <div class="salesItem">
+                        <div class="progress bigCircle">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="smallCircle">
+                                <img width="53" height="53" src="./img/index/deployingCustomers.png">
+                                <span class="salesNum">
+                                    767
+                                </span>
+                            </div>
+                        </div>
+                        <div class="salesDesc">
+                            Distribution Country
+                        </div>
+                    </div>
+                    <div class="salesItem">
+                        <div class="progress bigCircle">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="smallCircle">
+                                <img width="53" height="53" src="./img/index/winningPrize.png">
+                                <span class="salesNum">
+                                    767
+                                </span>
+                            </div>
+                        </div>
+                        <div class="salesDesc">
+                            Distribution Country
+                        </div>
+                    </div>
+                    <div class="salesItem">
+                        <div class="progress bigCircle">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="smallCircle">
+                                <img width="53" height="53" src="./img/index/distributionCountry.png">
+                                <span class="salesNum">
+                                    767
+                                </span>
+                            </div>
+                        </div>
+                        <div class="salesDesc">
+                            Distribution Country
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid blockBgWhite">
+         <div class="row rowBlock ourService">
+             <div class="col-xs-12">
+                 <h2>Our Service</h2>
+             </div>
+             <div class="col-xs-12">
+                 <p>
+                    Coherix is in the business of solving difficult 3D machine vision problems.The 3D data our products produce<br>
+                    enables our customers to assess how their manufacturing processes are performing.
+                 </p>
+             </div>
+             <div class="col-xs-10 col-xs-push-1">
+                <div class="serviceWrap">
+                    <dl class="serviceItem">
+                        <dt class="serviceImg">
+                            <img src="./img/index/serviceIntroduction.png" />
+                        </dt>
+                        <dd class="serviceTit">
+                            Service Introduction
+                        </dd>
+                        <dd class="serviceInfo">
+                            Coherix is in the business of solving difficult 3D machine vision problems. The 3D data our
+                            products produce enables our customers to assess how their manufacturing processes are
+                            performing.
+                        </dd>
+                    </dl>
+                    <dl class="serviceItem">
+                        <dt class="serviceImg">
+                            <img src="./img/index/serviceIntroduction.png" />
+                        </dt>
+                        <dd class="serviceTit">
+                            Service Introduction
+                        </dd>
+                        <dd class="serviceInfo">
+                            Coherix is in the business of solving difficult 3D machine vision problems. The 3D data our
+                            products produce enables our customers to assess how their manufacturing processes are
+                            performing.
+                        </dd>
+                    </dl>
+                    <dl class="serviceItem">
+                        <dt class="serviceImg">
+                            <img src="./img/index/serviceIntroduction.png" />
+                        </dt>
+                        <dd class="serviceTit">
+                            Service Introduction
+                        </dd>
+                        <dd class="serviceInfo">
+                            Coherix is in the business of solving difficult 3D machine vision problems. The 3D data our
+                            products produce enables our customers to assess how their manufacturing processes are
+                            performing.
+                        </dd>
+                    </dl>
+                    <dl class="serviceItem">
+                        <dt class="serviceImg">
+                            <img src="./img/index/serviceIntroduction.png" />
+                        </dt>
+                        <dd class="serviceTit">
+                            Service Introduction
+                        </dd>
+                        <dd class="serviceInfo">
+                            Coherix is in the business of solving difficult 3D machine vision problems. The 3D data our
+                            products produce enables our customers to assess how their manufacturing processes are
+                            performing.
+                        </dd>
+                    </dl>
+                </div>
+             </div>
+         </div>
+     </div>
+    <div class="container-fluid customer ">
+        <div class="row rowBlock ">
+            <div class="col-xs-12">
+                <h2>Customer Reviews</h2>
+            </div>
+
+            <div class="col-xs-12">
+                <p>
+                By using i-Cite software, we are free of all legacy hardware and we can precisely choose the right configuration<br> 
+                of cameras and other peripherals for our application.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-push-1">
+                <div id="carousel-customer" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item  active">
+                            <div class="customerItem">
+                                <div class="col-xs-9 customerItemWrap">
+                                    <div class="customerImg">
+                                        <img src="./img/index/people.png" width="140" height="140"/>
+                                    </div>
+                                    <div class="customerCont">
+                                        <div class="customerTit">Tesla, General Headquarters</div>
+                                        <div class="customerInfo">
+                                            By using i-Cite software, we are free of all legacy hardware and we can precisely
+                                            choose the right configuration of cameras and other peripherals for our application.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="customerItem">
+                                <div class="col-xs-9 customerItemWrap">
+                                    <div class="customerImg">
+                                        <img src="./img/index/people.png" width="140" height="140" />
+                                    </div>
+                                    <div class="customerCont">
+                                        <div class="customerTit">Tesla, General Headquarters</div>
+                                        <div class="customerInfo">
+                                            By using i-Cite software, we are free of all legacy hardware and we can
+                                            precisely
+                                            choose the right configuration of cameras and other peripherals for our
+                                            application.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left-control" href="#carousel-customer" role="button" data-slide="prev">
+                        <span class="customerlft" aria-hidden="true"><img src="./img/index/culeft.png" width="23"
+                                height="23"></span>
+                    </a>
+                    <a class="right-control" href="#carousel-customer" role="button" data-slide="next">
+                        <span class="customerRit" aria-hidden="true"><img src="./img/index/culeft.png" width="23"
+                                height="23"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid indexFoot">
+        <div class="row rowBlock">
+            <div class="col-xs-6 contactUs">
+                <h2>Contact Us</h2>
+                <input class="col-xs-9" type="text" name="name " placeholder="Your Name (required)" />
+                <input class="col-xs-9" type="text" name="mail " placeholder="Your E-mail (required)" />
+                <textarea class="col-xs-9"  name="msg" placeholder="Your Message"></textarea>
+                <div class="submitBtn">
+                    <img class="img3" src="./img/index/team_arrow2.png">
+                    <span>Submit</span>
+                </div>
+            </div>
+            <div class="col-xs-6 followUs">
+                <h2>Follow Us</h2>
+                <div class="headquarters">
+                    Coherix Headquarters
+                </div>
+                <span class="ranchero">
+                    3980 Ranchero Dr.<br>
+                    Ann Arbor, MI 48108
+                </span>
+                <i class="linewhite"></i>
+                <div class="telFax">
+                    Tel: 734-922-4073<br> Fax: 734-761-9193
+                </div>
+                <ol class="hoverList">
+                    <li class="hoverItem hoverItem1"></li>
+                    <li class="hoverItem hoverItem2"></li>
+                    <li class="hoverItem hoverItem3"></li>
+                    <li class="hoverItem hoverItem4"></li>
+                    <li class="hoverItem hoverItem5"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/tabdh.js" type="text/javascript" charset="utf-8"></script>
 </body>
+
 </html>

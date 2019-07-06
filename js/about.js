@@ -5,7 +5,7 @@ $(function(){
 		//鼠标移入 
 		console.log($(this).find('img'))
 		$(this).children().first().hide()
-		$(this).find("div").eq(1).show(1000).css({
+		$(this).find("div").eq(1).show().css({
 										'background':'rgba(255,255,255,0.65)',
 										'color':'#021774'
 									})
