@@ -373,22 +373,26 @@ a:focus {
     from {
         top: 500px;
         visibility: hidden;
+        opacity: 0;
     }
 
     to {
         top: 0px;
         visibility:visible;
+        opacity: 1;
     }
 }
 @keyframes mymoveleft {
     from {
         left: 500px;
         visibility: hidden;
+        opacity: 0;
     }
 
     to {
         left: 0px;
         visibility: visible;
+        opacity: 1;
     }
 }
 .whoweare{
@@ -866,4 +870,10 @@ a:focus {
     .bannerGeneric {
         bottom:80px;
     }
+}
+@media screen and (max-width: 1208px){
+    #index #header{
+        display: none;
+    }
+
 }
