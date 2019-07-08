@@ -300,6 +300,15 @@ a:focus {
 #index .xia{
     top: 42px;
 }
+#index #header.headActive{
+    transition: all 1s;
+    background:rgba(8, 16, 50, .6);
+}
+#scroll1 h2{
+    transition: all 1s;
+    transform: translate3d()
+}
+
 .bannerGeneric .carInd {
     width:18px;
     height:18px;
@@ -331,6 +340,56 @@ a:focus {
     font-weight:500;
     color:rgba(8, 16, 50, 1);
     line-height:32px;
+}
+.productFeatures,
+.whoweare .col-xs-12,
+.ourService,.indexFoot .col-xs-6 {
+    position: relative;
+    visibility: hidden;
+    
+}
+#scroll2{
+    overflow: hidden;
+}
+#scroll1.scrollActive .productFeatures,
+#scroll5.scrollActive .ourService ,
+#scroll7.scrollActive .followUs {
+    animation:mymove 1s;
+    visibility: visible;
+}
+#scroll7.scrollActive .contactUs{
+     animation:mymove 1.5s;
+     visibility: visible;
+}
+#scroll2.scrollActive .animate1{
+    animation:mymoveleft 1s;
+    visibility: visible;
+}
+#scroll2.scrollActive .animate2 {
+    animation: mymoveleft 1.5s;
+    visibility: visible;
+}
+@keyframes mymove {
+    from {
+        top: 500px;
+        visibility: hidden;
+    }
+
+    to {
+        top: 0px;
+        visibility:visible;
+    }
+}
+@keyframes mymoveleft {
+    from {
+        left: 500px;
+        visibility: hidden;
+    }
+
+    to {
+        left: 0px;
+        visibility: visible;
+    }
 }
 .whoweare{
     background: url(../img/index/whowearebg.png) no-repeat;
@@ -540,6 +599,9 @@ a:focus {
     border-right: 0;
     -webkit-transform-origin: center right;
     transform-origin: center right;
+    
+}
+#scroll4.scrollActive .progress-right .progress-bar{
     animation: loading-1 1.8s linear forwards;
 }
 
@@ -547,7 +609,7 @@ a:focus {
     border-color: rgba(215, 36, 47, .3);
 }
 
-.progress.bigCircle .progress-left .progress-bar {
+#scroll4.scrollActive .progress.bigCircle .progress-left .progress-bar {
     animation: loading-2 1.5s linear forwards 1.8s;
 }
 .ourService p{
